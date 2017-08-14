@@ -1,0 +1,27 @@
+{
+  "name": "blinkerapis",
+  "version": "1.0.1",
+  "description": "RAPI Blinker APIs",
+  "main": "api-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dprasen/blinkerApi.git"
+  },
+  "author": "Prasenjit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dprasen/blinkerApi/issues"
+  },
+  "homepage": "https://github.com/dprasen/blinkerApi#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.3"
+  }
+}
