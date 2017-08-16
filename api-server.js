@@ -21,3 +21,6 @@ app.listen(port);
 
 
 console.log('Blinker RESTful API server started on: ' + port);
+
+
+return module.exports;

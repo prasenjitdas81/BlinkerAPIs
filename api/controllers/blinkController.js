@@ -16,8 +16,7 @@ exports.list_all_blinks = function (req, res) {
 
 
 exports.create_a_blink = function (req, res) {
-    var new_blink = new Blink(req.body);
-    console.log(req);
+    var new_blink = new Blink(req.body);    
     new_blink.save(function (err, blink) {
         if (err)
             res.send(err);
