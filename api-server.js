@@ -17,10 +17,7 @@ var routes = require('./api/routes/blinkRoutes');
 routes(app);
 
 
-app.listen(port);
+app.listen(port,'0.0.0.0');
 
 
 console.log('Blinker RESTful API server started on: ' + port);
-
-
-return module.exports;
